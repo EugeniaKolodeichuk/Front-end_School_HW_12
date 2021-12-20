@@ -1,6 +1,7 @@
 import React from 'react';
-import { useParams } from 'react-router';
+
 import { useState, useEffect } from 'react';
+import { useParams } from 'react-router';
 import shortid from 'shortid';
 import defaultImage from '../default.png';
 import styles from '../ProfileView/ProfileView.module.css';
